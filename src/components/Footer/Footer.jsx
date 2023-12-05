@@ -1,7 +1,6 @@
-import React from "react";
 import "./Footer.scss";
 import { FaLocationArrow, FaMobileAlt, FaEnvelope } from "react-icons/fa";
-import Payment from "../../assets/payments.png";
+import Payment from "/payments.png";
 import { useNavigate } from "react-router-dom";
 const Footer = () => {
   const navigate = useNavigate();
